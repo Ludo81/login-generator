@@ -11,7 +11,7 @@ import static org.junit.Assert.*;
 
 public class LoginServiceTest {
 
-    private  LoginService ls;
+    private LoginService ls;
     List<String> resul = new ArrayList<String>();
     List<String> resulV = new ArrayList<String>();
 
