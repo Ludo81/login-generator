@@ -39,4 +39,10 @@ public class LoginGeneratorTest {
         lg.generateLoginForNomAndPrenom("Dùrand", "Paul");
         assertTrue(ls.loginExists("PDUR"));
     }
+
+    @Test
+    public void generateNewLogin3() {
+        lg.generateLoginForNomAndPrenom("Du", "Paul");
+        assertTrue(ls.loginExists("PDU"));
+    }
 }
